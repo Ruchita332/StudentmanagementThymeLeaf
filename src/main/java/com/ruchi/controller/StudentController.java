@@ -49,7 +49,7 @@ public class StudentController {
 		model.addAttribute ("msg", msg);
 	
 		
-		return "extra";
+		return "redirect:/viewAll";
 	}
 	
 	@RequestMapping ("/viewAll")
